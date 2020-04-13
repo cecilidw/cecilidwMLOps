@@ -3,7 +3,7 @@ variables:
   BASE_NAME: 'cdwmlopsdemo' #used only during environment creation
   #If you want to use an existing workspace, change all the below values according to current setup
   WORKSPACE: '${{ variables.BASE_NAME }}-ws'
-  RESOURCE_GROUP: '${{ variables.BASE_NAME }}-rg'
+  RESOURCE_GROUP: 'cdwmlopsdemo'
   STORAGE_ACCOUNT: '${{ variables.BASE_NAME }}sa'
   KEY_VAULT: '${{ variables.BASE_NAME }}kv'
   APP_INSIGHTS: '${{ variables.BASE_NAME }}appins'
